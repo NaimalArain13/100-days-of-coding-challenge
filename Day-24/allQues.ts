@@ -7,8 +7,6 @@ function loop(){
         console.log(i);
         
     }
-        
-
 }
 // console.log(i)  error: Cannot find name 'i' because "let" keyword is local or block scoped. 
 loop()
@@ -33,12 +31,12 @@ const ispaid = true;
 
 
 function scope(){
-    let scope = "local or block scope";
+    let scope0 = "local or block scope";
     const scope1 = "local or block scope"
     return {scope ,  scope1}
 }
 
-// console.log(scope);  error: Cannot find name 'add'.
+// console.log(scope0);  error: Cannot find name 'add'.
 // console.log(scope1);  error: Cannot find name 'subtract'.
 
 
