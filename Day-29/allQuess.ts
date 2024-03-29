@@ -27,6 +27,6 @@ console.log(checkTextPresence("Current love TypeScript"));       //return false
 // Explain & TIP: .substring() can be used to get a specific part of a string, by specifying the start and end positions.
 
 let sentence:string = "Hello everyone! hope you all are doing well";
-let subtring = sentence.substring(0 , 11)
+let subtring = sentence.substring(0 , 10)
 console.log(subtring);   //return 1st 10 characters from the given string
  
