@@ -5,8 +5,8 @@ function findPosition(searchString:string):number{
     let string = searchString.indexOf("CODE".toLowerCase() , 0)
     return string
 }
-// console.log(findPosition("Some of the code is missing in this block"))  //return 12
-// console.log(findPosition("Do not write the wrong program"));            // return -1
+console.log(findPosition("Some of the code is missing in this block"))  //return 12
+console.log(findPosition("Do not write the wrong program"));            // return -1
 
 
 
@@ -17,8 +17,8 @@ function checkTextPresence (text : string):boolean{
     let textCheck = text.includes("JavaScript".toLowerCase());
     return textCheck
 }
-// console.log(checkTextPresence("Last love javascript"));          //return true
-// console.log(checkTextPresence("Current love TypeScript"));       //return false
+console.log(checkTextPresence("Last love javascript"));          //return true
+console.log(checkTextPresence("Current love TypeScript"));       //return false
 
 
 
