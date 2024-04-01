@@ -31,8 +31,7 @@ let checkNaN = (value: any):boolean =>{
     return isNaN(value)
 }
 
-console.log(checkNaN("naimal"));
-console.log(checkNaN(3435));
-console.log(checkNaN(true));
-
+console.log(checkNaN("naimal")); 
+console.log(checkNaN(3435));      
+console.log(checkNaN(true));      
 
