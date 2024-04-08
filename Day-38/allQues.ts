@@ -29,7 +29,7 @@ function capitalOfCanada(countries : Map<string , string>){
 }
 
 //invoke the function
-// capitalOfCanada(countries)
+capitalOfCanada(countries)
 
 
 // Question 114: Iterate over a Map of student IDs and names, and log each pair to the console.
@@ -41,6 +41,6 @@ studentID.set(2 , "Kanwal Ghulam Muhammad");
 studentID.set(3 , "Filza Danish");
 studentID.set(4 , "Fiza Langah");
 
-// studentID.forEach((name, id) => {
-//     console.log(`Student ID: ${id}, Name: ${name}`);
-//   });
+studentID.forEach((name, id) => {
+    console.log(`Student ID: ${id}, Name: ${name}`);
+  });
