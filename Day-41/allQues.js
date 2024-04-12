@@ -5,7 +5,7 @@ for (let i = 1; i <= 10; i++) {
     if (i === 5) {
         continue;
     }
-    // console.log(i);
+    console.log(i);
 }
 // Question 122: Use a while loop to count down from 10 to 1 and breaks the loop when it reaches 5.
 // Explain & TIP: The break statement terminates the loop immediately. This is useful for stopping a loop when a certain condition is met, even if the loop's original termination condition hasn't been reached yet.
@@ -15,7 +15,7 @@ while (count > 0) {
     if (count === 5) {
         break;
     }
-    // console.log(count);
+    console.log(count);
     count--;
 }
 // Question 123: Create a loop that iterates through a string and stops when it finds the first vowel.
