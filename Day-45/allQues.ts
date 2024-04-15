@@ -7,7 +7,7 @@ const myObj = {
     isMarried : true
 }
 const jsonString = JSON.stringify(myObj)
-// console.log(typeof jsonString , jsonString);
+console.log(typeof jsonString , jsonString);
 
 
 
@@ -15,7 +15,7 @@ const jsonString = JSON.stringify(myObj)
 
 // Explain & TIP: JSON.parse() is used to convert a JSON string into a JavaScript object. This is particularly useful when dealing with data received as JSON from a web server or API.
 let jsObj = JSON.parse(jsonString)
-// console.log(typeof jsObj , jsObj);
+console.log(typeof jsObj , jsObj);
 
 
 
